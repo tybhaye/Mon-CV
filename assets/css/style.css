@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Gabarito:wght@400;700&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+h1{
+    font-family: "Lato", sans-serif;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../font/Raleway-VariableFont_wght.woff),
+    src: url(../font/Raleway-VariableFont_wght.ttf) format(truetype);
+}
+section{
+    font-family: "Raleway", sans-serif;
+}
+

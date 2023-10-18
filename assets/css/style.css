@@ -12,17 +12,31 @@ section{
     font-family: "Raleway", sans-serif;
 }
 
+h3{
+    background-color: #dbc2a4;
+    color: black;
+    width: 90%;
+    text-indent: 15px;
+    font-family: "Raleway", sans-serif;
+}
+
+h3:hover{
+    border-left: brown solid 10px;
+    font-family: "Lato", sans-serif;
+}
+
 body{
-    
     display: flex;
     flex-direction: column;
     margin: 0px;
     width: 1660px;
-
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 115%;
+    
 }
 
 #name{
-
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -30,8 +44,7 @@ body{
     justify-content: center;
     background-color: #782221;
 }
-
-img{
+#pfp{
     border-radius: 50%;
     border: 2px solid;
     box-shadow: 0px 0px 10px 10px rgb(75, 19, 19);
@@ -43,7 +56,7 @@ img{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 120px;
+    height: 150px;
 }
 a{
     text-decoration: none;
@@ -54,7 +67,11 @@ a{
     background-color: #782221;
     color: white;
     width: 30%;
-    height: 900px
+    height: 1100px
+}
+
+#about{
+    text-indent: 3em;
 }
 
 #section{
@@ -71,18 +88,10 @@ a{
 }
 
 footer{
-    background: url(../media/linkedin_1.ico) no-repeat bottom 55px right 920px / 40px,
-     url(../media/twitter_1.ico) no-repeat bottom 55px center  / 40px,
-     url(../media/github_1.ico)  no-repeat bottom 55px left 920px / 40px;
-     background-color: #782221;
-     height: 120px;
-     display: flex;
-     justify-content: center;
-     align-items: end;
-}
-
-h3{
-    background-color: #dbc2a4;
-    color: black;
-    width: 90%;
+    background-color: #782221;
+    color: white;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

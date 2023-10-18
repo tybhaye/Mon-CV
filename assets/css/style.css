@@ -13,9 +13,12 @@ section{
 }
 
 body{
-    background-color: #782221;
+    
     display: flex;
     flex-direction: column;
+    margin: 0px;
+    width: 1660px;
+
 }
 
 #name{
@@ -25,10 +28,14 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #782221;
 }
 
 img{
-    border-radius: 50%
+    border-radius: 50%;
+    border: 2px solid;
+    box-shadow: 0px 0px 10px 10px rgb(75, 19, 19);
+    cursor: zoom-in;
 }
 
 #address{
@@ -36,39 +43,46 @@ img{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: white;
     height: 120px;
 }
-
-#section{
-    display: flex;
-    
+a{
+    text-decoration: none;
+    color: white;
 }
 
 #me{
     background-color: #782221;
-    height: 200px;
+    color: white;
+    width: 30%;
+    height: 900px
+}
+
+#section{
+    display: flex;
+    flex-direction: row;
+    width: 800;
 }
 
 #experience{
     background-color: white;
     color: black;
-   
+    width: 70%;
+    font-weight: bold;
 }
 
 footer{
-    background: url(../media/linkedin_1.ico) no-repeat bottom 60px right 950px / 45px,
-     url(../media/twitter_1.ico) no-repeat bottom 60px center  / 45px,
-     url(../media/github_1.ico)  no-repeat bottom 60px left 950px / 45px;
+    background: url(../media/linkedin_1.ico) no-repeat bottom 55px right 920px / 40px,
+     url(../media/twitter_1.ico) no-repeat bottom 55px center  / 40px,
+     url(../media/github_1.ico)  no-repeat bottom 55px left 920px / 40px;
      background-color: #782221;
      height: 120px;
      display: flex;
      justify-content: center;
      align-items: end;
-     
-    
 }
 
 h3{
     background-color: #dbc2a4;
+    color: black;
+    width: 90%;
 }

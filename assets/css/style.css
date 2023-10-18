@@ -10,6 +10,7 @@ h1{
 }
 section{
     font-family: "Raleway", sans-serif;
+    font-size: 1.3rem;
 }
 
 h3{
@@ -19,7 +20,6 @@ h3{
     text-indent: 15px;
     font-family: "Raleway", sans-serif;
 }
-
 h3:hover{
     border-left: brown solid 10px;
     font-family: "Lato", sans-serif;
@@ -33,7 +33,12 @@ body{
     padding-left: 20%;
     padding-right: 20%;
     font-size: 115%;
-    
+}
+
+#section{
+    display: flex;
+    flex-direction: row;
+    width: 800;
 }
 
 #name{
@@ -67,17 +72,10 @@ a{
     background-color: #782221;
     color: white;
     width: 30%;
-    height: 1100px
+    height: 1500px
 }
-
 #about{
     text-indent: 3em;
-}
-
-#section{
-    display: flex;
-    flex-direction: row;
-    width: 800;
 }
 
 #experience{
@@ -91,7 +89,10 @@ footer{
     background-color: #782221;
     color: white;
     height: 120px;
+
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
+
